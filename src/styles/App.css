@@ -1,0 +1,32 @@
+.movie {
+  width: 20%;
+  min-width: 20%;
+}
+
+.checkbox:hover {
+  color: #1e2125;
+  background-color: #e9ecef;
+}
+
+@media screen and (max-width: 1399.98px) {
+  .movie {
+    width: 25%;
+    min-width: 25%;
+  }
+}
+@media screen and (max-width: 1199.98px) {
+}
+@media screen and (max-width: 991.98px) {
+  .movie {
+    width: 33.33%;
+    min-width: 33.33%;
+  }
+}
+@media screen and (max-width: 767.98px) {
+}
+@media screen and (max-width: 575.98px) {
+  .movie {
+    width: 50%;
+    min-width: 50%;
+  }
+}
